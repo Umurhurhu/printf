@@ -32,6 +32,6 @@ Handle the - flag character for non-custom conversion specifiers.
 Handle the following custom conversion specifier:
 Handle the following custom conversion specifier:
 All the above options work well together.
- AUTHORS
+AUTHORS
 TEGA
 AUSTINE

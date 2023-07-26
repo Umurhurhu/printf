@@ -1,11 +1,12 @@
 #include "main.h"
-/************************* WRITE HANDLE *************************/
+
+/*************** WRITE HANDLE ****************/
 
 /**
- * handle_write_char - Prints a string
+ * handle_write_char - Printing a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags:  Calculating active flags.
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
@@ -75,13 +76,13 @@ int flags, int width, int precision, int size)
 
 }
 
-/************************* WRITE NUMBER *************************/
+/****************** WRITE NUMBER *****************/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
+ * write_number - Printing a string
+ * @is_negative: Lists arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculating active flags
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
@@ -336,18 +337,18 @@ int write_unsgnd(int is_negative, int ind,
 
 
 /**
- *  * write_pointer - Write a memory address
- *   * @buffer: Arrays of chars
- *    * @ind: Index at which the number starts in the buffer
- *     * @length: Length of number
- *      * @width: Wwidth specifier
- *       * @flags: Flags specifier
- *        * @padd: Char representing the padding
- *         * @extra_c: Char representing extra char
- *          * @padd_start: Index at which padding should start
- *           *
- *            * Return: Number of written chars.
- *             */
+ * write_pointer - Write a memory address
+ * @buffer: Arrays of chars
+ * @ind: Index at which the number starts in the buffer
+ * @length: Length of number
+ * @width: Wwidth specifier
+ * @flags: Flags specifier
+ * @padd: Char representing the padding
+ * @extra_c: Char representing extra char
+ * @padd_start: Index at which padding should start
+ *
+ * Return: Number of written chars.
+ **/
 
 int write_pointer(char buffer[], int ind, int length,
 int width, int flags, char padd, char extra_c, int padd_start)

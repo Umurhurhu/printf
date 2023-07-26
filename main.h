@@ -79,7 +79,7 @@ int handle_print(const char *fmt, int *i,
 
 
 
-/* Funtions to print chars and strings */
+/* Functions to print chars and strings */
 
 int print_char(va_list types, char buffer[],
 
@@ -129,7 +129,7 @@ int print_hexa(va_list types, char map_to[],
 
 
 
-/* Function to print non printable characters */
+/* Function to print non_printable characters */
 
 int print_non_printable(va_list types, char buffer[],
 
@@ -137,7 +137,7 @@ int print_non_printable(va_list types, char buffer[],
 
 
 
-/* Funcion to print memory address */
+/* Function to print memory address */
 
 int print_pointer(va_list types, char buffer[],
 
@@ -145,7 +145,7 @@ int print_pointer(va_list types, char buffer[],
 
 
 
-/* Funciotns to handle other specifiers */
+/* Functions to handle other specifiers */
 
 int get_flags(const char *format, int *i);
 
